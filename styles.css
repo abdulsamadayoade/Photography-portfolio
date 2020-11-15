@@ -67,6 +67,8 @@ header {
     background-color: #384147;
 }
 
+.navbar-toggler{outline: none !important;}
+
 .navbar-toggler i {
     color: #fff;
     font-size: 25px;
