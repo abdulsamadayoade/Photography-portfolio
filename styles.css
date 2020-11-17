@@ -287,3 +287,45 @@ footer h5 {
 .social a:hover {
     opacity: .5;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    .about-content {
+        position: relative;
+        display: block;
+    }
+
+    .about-description {
+        position: absolute;
+        top: 80%;
+        transform: translateY(-50%);
+        width: 60%;
+        outline-offset: -10px;
+    }
+
+    .about-image img {
+        width: 70%;
+        margin-left: auto;
+    }
+
+    .lightboxOverlay {
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about-description {
+        top: 50%;
+        width: 40%;
+        outline: 10px solid rgba(56, 65, 71, .5);
+        outline-offset: -20px;
+    }
+
+    .lb-close {
+        position: absolute;
+        float: none;
+        top: -20px;
+        right: 30px;
+    }
+}
