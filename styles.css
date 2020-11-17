@@ -262,3 +262,28 @@ header {
     background-color: #384147;
     border-radius: 100%;
 }
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: #151515;
+}
+
+footer h5 {
+    color: #fff;
+    font-family: "Playfair Display 400", sans-serif;
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, .7) !important;
+}
+
+.social a {
+    margin-right: 12px;
+    font-size: 18px; 
+    color: #fff;
+}
+
+.social a:hover {
+    opacity: .5;
+}
