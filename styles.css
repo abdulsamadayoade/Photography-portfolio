@@ -5,6 +5,10 @@
     src: url("textfonts/AmostelySignature.ttf") format("truetype");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
